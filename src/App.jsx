@@ -12,6 +12,7 @@ import UpdateGroup from './pages/UpdateGroup';
 import NotFound from './pages/NotFound';
 
 import 'react-tooltip/dist/react-tooltip.css';
+import OffersPage from "./pages/OffersPage";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="createGroup" element={<PrivateRoute><CreateGroup /></PrivateRoute>} />
         <Route path="myGroups" element={<PrivateRoute><MyGroups /></PrivateRoute>} />
         <Route path="/groups" element={<AllGroups />} />
+         <Route path="/offers" element={<PrivateRoute> <OffersPage/></PrivateRoute> } />
 
         <Route path="/group/:id" element={
             <PrivateRoute>
@@ -42,6 +44,7 @@ function App() {
           <MyGroups />
         </PrivateRoute>
       } />
+     
 
 
         <Route path="/updateGroup/:id" element={

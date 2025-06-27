@@ -8,50 +8,50 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white pt-12 mt-24">
-      <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="bg-gray-900 text-white pt-14 mt-24 border-t-4 border-indigo-600">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Column 1 */}
         <div>
-          <h3 className="text-xl font-bold mb-4 text-white">HobbyHub</h3>
-          <ul className="space-y-2 text-gray-400">
-            <li><a href="#" className="hover:text-white transition">About Us</a></li>
-            <li><a href="#" className="hover:text-white transition">Our Mission</a></li>
-            <li><a href="#" className="hover:text-white transition">Community Guidelines</a></li>
-            <li><a href="#" className="hover:text-white transition">Contact</a></li>
+          <h3 className="text-2xl font-bold mb-4 text-indigo-400">HobbyHub</h3>
+          <ul className="space-y-2 text-gray-400 text-sm">
+            <li><a href="#" className="hover:text-indigo-300 transition">About Us</a></li>
+            <li><a href="#" className="hover:text-indigo-300 transition">Our Mission</a></li>
+            <li><a href="#" className="hover:text-indigo-300 transition">Community Guidelines</a></li>
+            <li><a href="#" className="hover:text-indigo-300 transition">Contact</a></li>
           </ul>
         </div>
 
         {/* Column 2 */}
         <div>
-          <h3 className="text-xl font-bold mb-4 text-white">Explore</h3>
-          <ul className="space-y-2 text-gray-400">
-            <li><a href="/groups" className="hover:text-white transition">All Groups</a></li>
-            <li><a href="/create" className="hover:text-white transition">Create a Group</a></li>
-            <li><a href="/myGroups" className="hover:text-white transition">My Groups</a></li>
-            <li><a href="/faq" className="hover:text-white transition">FAQs</a></li>
+          <h3 className="text-2xl font-bold mb-4 text-indigo-400">Explore</h3>
+          <ul className="space-y-2 text-gray-400 text-sm">
+            <li><a href="/groups" className="hover:text-indigo-300 transition">All Groups</a></li>
+            <li><a href="/create" className="hover:text-indigo-300 transition">Create a Group</a></li>
+            <li><a href="/myGroups" className="hover:text-indigo-300 transition">My Groups</a></li>
+            <li><a href="/faq" className="hover:text-indigo-300 transition">FAQs</a></li>
           </ul>
         </div>
 
         {/* Column 3 */}
         <div>
-          <h3 className="text-xl font-bold mb-4 text-white">Support</h3>
-          <ul className="space-y-2 text-gray-400">
-            <li><a href="#" className="hover:text-white transition">Help Center</a></li>
-            <li><a href="#" className="hover:text-white transition">Safety Tips</a></li>
-            <li><a href="#" className="hover:text-white transition">Terms of Use</a></li>
-            <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
+          <h3 className="text-2xl font-bold mb-4 text-indigo-400">Support</h3>
+          <ul className="space-y-2 text-gray-400 text-sm">
+            <li><a href="#" className="hover:text-indigo-300 transition">Help Center</a></li>
+            <li><a href="#" className="hover:text-indigo-300 transition">Safety Tips</a></li>
+            <li><a href="#" className="hover:text-indigo-300 transition">Terms of Use</a></li>
+            <li><a href="#" className="hover:text-indigo-300 transition">Privacy Policy</a></li>
           </ul>
         </div>
 
-        {/* Column 4 - Social Media */}
+        {/* Column 4 - Social */}
         <div>
-          <h3 className="text-xl font-bold mb-4 text-white">Follow Us</h3>
+          <h3 className="text-2xl font-bold mb-4 text-indigo-400">Follow Us</h3>
           <div className="flex space-x-4">
             <a
               href="https://www.facebook.com/omar.faruq.399"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white text-xl transition"
+              className="text-gray-400 hover:text-blue-500 text-xl transition"
             >
               <FaFacebookF />
             </a>
@@ -59,7 +59,7 @@ const Footer = () => {
               href="https://www.youtube.com/@omarfaruq1905"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white text-xl transition"
+              className="text-gray-400 hover:text-red-500 text-xl transition"
             >
               <FaYoutube />
             </a>
@@ -67,7 +67,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/omar-faruq-5a771a267/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white text-xl transition"
+              className="text-gray-400 hover:text-blue-400 text-xl transition"
             >
               <FaLinkedinIn />
             </a>
@@ -75,7 +75,7 @@ const Footer = () => {
               href="https://www.instagram.com/omar.sau/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white text-xl transition"
+              className="text-gray-400 hover:text-pink-500 text-xl transition"
             >
               <FaInstagram />
             </a>
@@ -83,10 +83,10 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Line */}
-      <div className="mt-10 border-t border-gray-700">
+      {/* Bottom Text */}
+      <div className="mt-12 border-t border-gray-700">
         <div className="text-center py-6 text-sm text-gray-500">
-          © 2025 <span className="text-white font-medium">HobbyHub</span> by Omar Developer. All rights reserved.
+          © 2025 <span className="text-indigo-400 font-semibold">HobbyHub</span> by Omar Developer. All rights reserved.
         </div>
       </div>
     </footer>

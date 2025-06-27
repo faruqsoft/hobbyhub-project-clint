@@ -17,11 +17,12 @@ const OfferSection = () => {
               premium hobby groups, virtual workshops, and monthly community events. Limited-time deal – don’t miss it!
             </p>
 
-            <Link to="/signup">
-              <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-full transition">
+            <Link to="/offers">
+            <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-full transition">
                 Claim Your Offer
-              </button>
+            </button>
             </Link>
+
           </div>
         </Fade>
 
@@ -29,7 +30,7 @@ const OfferSection = () => {
         <Slide direction="right" triggerOnce>
           <div className="flex justify-center">
             <img
-              src="https://i.ibb.co/fqYBYvq/offer-hobbies.png"
+              src="https://i.ibb.co/JwPngBwm/woman-6691311-1920.jpg"
               alt="Special Offer"
               className="w-full max-w-sm md:max-w-md rounded-xl shadow-lg"
             />
