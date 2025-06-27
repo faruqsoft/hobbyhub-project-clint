@@ -12,6 +12,7 @@ import WhyChoose from "../components/WhyChoose";
 import FAQ from "../components/FAQ";
 import CustomerFed from "../components/CustomerFed";
 import OfferSection from "../components/OfferSection";
+import PromotionalSection from "../components/PromotionalSection";
 
 
 
@@ -44,6 +45,7 @@ const Home = () => {
      <WhyChoose></WhyChoose>
      <FAQ></FAQ>
      <OfferSection></OfferSection>
+     <PromotionalSection> </PromotionalSection>
      
        {/* Customer Feedback Section */}
      <CustomerFed></CustomerFed>
