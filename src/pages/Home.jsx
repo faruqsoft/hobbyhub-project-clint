@@ -11,6 +11,7 @@ import FeatureGroup from "../components/FeatureGroup";
 import WhyChoose from "../components/WhyChoose";
 import FAQ from "../components/FAQ";
 import CustomerFed from "../components/CustomerFed";
+import OfferSection from "../components/OfferSection";
 
 
 
@@ -42,6 +43,9 @@ const Home = () => {
 
      <WhyChoose></WhyChoose>
      <FAQ></FAQ>
+     <OfferSection></OfferSection>
+     
+       {/* Customer Feedback Section */}
      <CustomerFed></CustomerFed>
 
      
